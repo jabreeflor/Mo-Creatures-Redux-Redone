@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#mocreaturesrr:spawns/goat",
+  "spawners": [
+    {
+      "type": "mocreaturesrr:moc_goat",
+      "count": 4,
+      "weight": 10
+    }
+  ]
+}

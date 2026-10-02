@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#mocreaturesrr:spawns/komodo_dragon",
+  "spawners": [
+    {
+      "type": "mocreaturesrr:moc_komodo_dragon",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      },
+      "weight": 15
+    }
+  ]
+}

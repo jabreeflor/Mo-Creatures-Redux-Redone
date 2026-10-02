@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WPW",
+    "P P",
+    "W I"
+  ],
+  "key": {
+    "W": "minecraft:red_wool",
+    "P": "#minecraft:planks",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "mocreaturesrr:kitty_bed_red",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "mocreaturesrr:rat_raw",
+  "result": {
+    "id": "mocreaturesrr:rat_cooked",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

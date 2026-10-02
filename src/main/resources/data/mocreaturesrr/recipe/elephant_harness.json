@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HWH",
+    "IWI",
+    "HWH"
+  ],
+  "key": {
+    "W": "minecraft:white_wool",
+    "H": "mocreaturesrr:hide",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "mocreaturesrr:elephant_harness",
+    "count": 1
+  }
+}

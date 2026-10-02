@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SRS",
+    "RYR",
+    "SRS"
+  ],
+  "key": {
+    "Y": "minecraft:yellow_wool",
+    "R": "minecraft:red_wool",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "mocreaturesrr:elephant_howdah",
+    "count": 1
+  }
+}

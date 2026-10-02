@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": "mocreaturesrr:ancient_silver_block"
+  },
+  "result": {
+    "id": "mocreaturesrr:ancient_silver_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  D",
+    "GDG",
+    "DGD"
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "G": "minecraft:glass"
+  },
+  "result": {
+    "id": "mocreaturesrr:horse_armor_crystal",
+    "count": 1
+  }
+}

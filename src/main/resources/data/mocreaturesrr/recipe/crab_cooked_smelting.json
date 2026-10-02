@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "mocreaturesrr:crab_raw",
+  "result": {
+    "id": "mocreaturesrr:crab_cooked",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

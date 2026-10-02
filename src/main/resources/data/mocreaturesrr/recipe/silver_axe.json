@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " XX",
+    " SX",
+    " S "
+  ],
+  "key": {
+    "X": "mocreaturesrr:ancient_silver_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "mocreaturesrr:silver_axe",
+    "count": 1
+  }
+}

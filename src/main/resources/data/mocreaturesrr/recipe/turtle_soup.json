@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T",
+    "B"
+  ],
+  "key": {
+    "T": "mocreaturesrr:turtle_cooked",
+    "B": "minecraft:bowl"
+  },
+  "result": {
+    "id": "mocreaturesrr:turtle_soup",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "mocreaturesrr:ancient_silver_scrap",
+  "result": {
+    "id": "mocreaturesrr:ancient_silver_ingot",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

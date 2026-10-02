@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": "mocreaturesrr:chitin"
+  },
+  "result": {
+    "id": "mocreaturesrr:scorp_helmet_dirt",
+    "count": 1
+  }
+}

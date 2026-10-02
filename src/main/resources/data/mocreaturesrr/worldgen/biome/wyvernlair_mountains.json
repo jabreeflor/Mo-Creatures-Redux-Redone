@@ -1,0 +1,76 @@
+{
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "replace_current_music": false,
+        "sound": "minecraft:music.overworld.jagged_peaks"
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "mocreaturesrr:wyvern",
+              "count": 1,
+              "weight": 70
+            },
+            {
+              "type": "mocreaturesrr:wyvern_tier2",
+              "count": 1,
+              "weight": 25
+            },
+            {
+              "type": "mocreaturesrr:wyvern_mother",
+              "count": 1,
+              "weight": 5
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/fog_color": "#3300ff",
+    "minecraft:visual/sky_color": "#3300ff",
+    "minecraft:visual/water_fog_color": "#3300ff"
+  },
+  "carvers": [],
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": "#3399ff",
+    "grass_color": "#3300ff",
+    "water_color": "#3333ff"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "mocreaturesrr:firestone_cluster"
+    ],
+    [
+      "mocreaturesrr:wyvwood_trees_plains"
+    ],
+    [],
+    [
+      "mocreaturesrr:patch_tall_wyvgrass",
+      "mocreaturesrr:patch_mushrooms"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 0.5
+}

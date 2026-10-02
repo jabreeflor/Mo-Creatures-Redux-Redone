@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "mocreaturesrr:block/sandstone_silver_bottom",
+    "top": "mocreaturesrr:block/sandstone_silver_top",
+    "side": "mocreaturesrr:block/sandstone_silver_normal"
+  }
+}

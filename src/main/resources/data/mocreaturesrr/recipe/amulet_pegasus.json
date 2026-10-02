@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XGX",
+    "GEG",
+    "XGX"
+  ],
+  "key": {
+    "X": "minecraft:blaze_powder",
+    "G": "minecraft:gold_nugget",
+    "E": "minecraft:diamond"
+  },
+  "result": {
+    "id": "mocreaturesrr:amulet_pegasus",
+    "count": 1
+  }
+}

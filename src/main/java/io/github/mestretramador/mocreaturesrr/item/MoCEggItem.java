@@ -1,0 +1,110 @@
+package io.github.mestretramador.mocreaturesrr.item;
+
+import java.util.function.Supplier;
+
+import javax.annotation.Nullable;
+
+import io.github.mestretramador.mocreaturesrr.entity.egg.MoCEggEntity;
+import io.github.mestretramador.mocreaturesrr.init.ModEntities;
+
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.resources.Identifier;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.entity.EntitySpawnReason;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.component.CustomData;
+import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.level.Level;
+
+/**
+ * Places a MoCEggEntity in the world. A specific egg item (jungle wyvern egg,
+ * mother wyvern egg, etc.) bakes in a fixed HatchSpec — which creature it
+ * hatches, its variant/species, and an optional chance of an "upgraded" tier
+ * (e.g. tier 2 instead of tier 1). The plain "Mystery Egg" has no spec: with
+ * nothing baked in and no drop-tagged NBT (for a future creature that tags
+ * its own egg drops), it deliberately does nothing when used.
+ */
+public class MoCEggItem extends Item {
+
+    /**
+     * @param tier1Type   the creature this normally hatches
+     * @param tier2Type   an optional "upgraded" alternative (null = never rolls one)
+     * @param tier2Chance chance (0.0-1.0) of rolling tier2Type instead of tier1Type
+     * @param variantId   variant/species tag handed to EggHatchable, e.g. "JUNGLE"
+     */
+    public record HatchSpec(Supplier<? extends EntityType<?>> tier1Type,
+            @Nullable Supplier<? extends EntityType<?>> tier2Type,
+            double tier2Chance, String variantId) {
+    }
+
+    @Nullable
+    private final HatchSpec spec;
+
+    /** Plain, unconfigured egg (the "Mystery Egg") — does nothing when used. */
+    public MoCEggItem(Properties properties) {
+        this(properties, null);
+    }
+
+    public MoCEggItem(Properties properties, @Nullable HatchSpec spec) {
+        super(properties);
+        this.spec = spec;
+    }
+
+    /** Hook for subclasses (e.g. a water-only egg) to tweak hatch conditions beyond light. No-op by default. */
+    protected void configureEgg(MoCEggEntity egg) {
+    }
+
+    @Override
+    public InteractionResult useOn(UseOnContext context) {
+        Level level = context.getLevel();
+        if (!(level instanceof ServerLevel serverLevel)) {
+            return InteractionResult.SUCCESS;
+        }
+
+        CompoundTag storedTag = context.getItemInHand().getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag();
+        String storedVariant = storedTag.contains("HatchVariant") ? storedTag.getStringOr("HatchVariant", "") : null;
+        boolean storedWasPickedUp = storedTag.getBooleanOr("WasPickedUp", false);
+
+        Identifier hatchEntityId;
+        String variantId;
+        if (this.spec != null) {
+            boolean rollTier2 = this.spec.tier2Type() != null
+                    && serverLevel.getRandom().nextDouble() < this.spec.tier2Chance();
+            EntityType<?> chosen = rollTier2 ? this.spec.tier2Type().get() : this.spec.tier1Type().get();
+            hatchEntityId = BuiltInRegistries.ENTITY_TYPE.getKey(chosen);
+            variantId = storedVariant != null ? storedVariant : this.spec.variantId();
+        } else {
+            if (!storedTag.contains("HatchEntityType")) {
+                return InteractionResult.PASS;
+            }
+            hatchEntityId = Identifier.parse(storedTag.getStringOr("HatchEntityType", ""));
+            variantId = storedVariant;
+        }
+
+        BlockPos pos = context.getClickedPos().relative(context.getClickedFace());
+        MoCEggEntity egg = ModEntities.MOC_EGG.get().create(serverLevel, EntitySpawnReason.SPAWN_ITEM_USE);
+        if (egg == null) {
+            return InteractionResult.FAIL;
+        }
+        egg.setHatchEntityId(hatchEntityId);
+        egg.setHatchVariant(variantId);
+        egg.setSourceItemId(BuiltInRegistries.ITEM.getKey(this));
+        egg.snapTo(pos.getX() + 0.5D, pos.getY(), pos.getZ() + 0.5D, 0F, 0F);
+        egg.setWasPickedUp(storedWasPickedUp);
+        configureEgg(egg);
+        serverLevel.addFreshEntity(egg);
+
+        Player player = context.getPlayer();
+        if (player != null && !player.getAbilities().instabuild) {
+            context.getItemInHand().shrink(1);
+        }
+
+        return InteractionResult.SUCCESS;
+    }
+}

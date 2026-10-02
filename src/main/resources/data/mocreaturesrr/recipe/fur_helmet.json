@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": "mocreaturesrr:fur"
+  },
+  "result": {
+    "id": "mocreaturesrr:fur_helmet",
+    "count": 1
+  }
+}

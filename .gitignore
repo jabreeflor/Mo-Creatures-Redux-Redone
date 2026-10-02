@@ -32,3 +32,7 @@ run/
 
 # Cache files
 src/generated/resources/.cache
+# NeoForge
+run-data/
+repo/
+.compile.lock/

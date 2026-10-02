@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "A": "mocreaturesrr:essence_of_undead",
+    "B": "mocreaturesrr:essence_of_fire",
+    "C": "mocreaturesrr:essence_of_darkness"
+  },
+  "result": {
+    "id": "mocreaturesrr:essence_of_light",
+    "count": 1
+  }
+}

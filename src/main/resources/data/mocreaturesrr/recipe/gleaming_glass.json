@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XFX",
+    "XXX"
+  ],
+  "key": {
+    "X": "minecraft:glass",
+    "F": "mocreaturesrr:firestone_chunk"
+  },
+  "result": {
+    "id": "mocreaturesrr:glass_gleaming",
+    "count": 1
+  }
+}

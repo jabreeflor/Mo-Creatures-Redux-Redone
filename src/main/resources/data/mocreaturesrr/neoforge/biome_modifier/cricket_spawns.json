@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#mocreaturesrr:spawns/cricket",
+  "spawners": [
+    {
+      "type": "mocreaturesrr:moc_cricket",
+      "count": 2,
+      "weight": 15
+    }
+  ]
+}

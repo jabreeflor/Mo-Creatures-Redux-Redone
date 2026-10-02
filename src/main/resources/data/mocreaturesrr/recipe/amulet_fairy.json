@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XGX",
+    "GEG",
+    "XGX"
+  ],
+  "key": {
+    "X": "minecraft:blaze_powder",
+    "G": "minecraft:gold_nugget",
+    "E": "mocreaturesrr:unicorn_horn"
+  },
+  "result": {
+    "id": "mocreaturesrr:amulet_fairy",
+    "count": 1
+  }
+}

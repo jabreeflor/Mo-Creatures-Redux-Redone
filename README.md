@@ -32,6 +32,33 @@ more on my job than any personal idea. Currently I'm still finding it not to be
 the right time to execute the aforementioned restoration and recreation, but someday
 it will be.
 
+## Minecraft 26.3 / NeoForge Port
+
+This branch ports the mod to **Minecraft 26.3** on **NeoForge 26.3.0.40-beta**
+(Java 25). It brings over the whole Mo'Creatures bestiary — horses and their
+breeds, big cats, bears, elephants, wyverns and the Wyvern Lair dimension,
+ogres, golems, werewolves, wraiths, scorpions, manticores, sharks, dolphins,
+fish, insects and more — with their models, textures, sounds, items, natural
+spawns and loot.
+
+The creature code, models and assets come from
+[Neo Mo' Creatures](https://github.com/JuanACash/NeoMoCreatures) by JCasH
+(GPL-3.0, itself based on DrZhark's original), ported from 1.21.1 to 26.3 and
+renamed to this mod's `mocreaturesrr` namespace. The earlier 1.18 horse-only
+code is preserved in this repository's git history.
+
+### Building and running
+
+```bash
+./gradlew build                          # jar in build/libs/
+./gradlew runClient                      # dev client
+./gradlew runClient -PquickPlay=<world>  # dev client straight into run/saves/<world>
+bash tools/server_smoke.sh               # boots a dev server, summons every creature over RCON
+```
+
+To play, install NeoForge 26.3.0.40-beta (or newer 26.3 build) and drop
+`build/libs/mocreaturesrr-<version>.jar` into the `mods` folder.
+
 ## The Future
 
 I don't know what the future holds and maybe in a even nearer day I'll be working

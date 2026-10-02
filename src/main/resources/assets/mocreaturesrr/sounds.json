@@ -1,0 +1,656 @@
+{
+  "moc_horse.grunt": {
+    "sounds": ["mocreaturesrr:moc_horse/horsegrunt1", "mocreaturesrr:moc_horse/horsegrunt2", "mocreaturesrr:moc_horse/horsegrunt3"]
+  },
+  "moc_horse.hurt": {
+    "sounds": ["mocreaturesrr:moc_horse/horsehurt1", "mocreaturesrr:moc_horse/horsehurt2"]
+  },
+  "moc_horse.death": {
+    "sounds": ["mocreaturesrr:moc_horse/horsedying"]
+  },
+  "moc_horse.eating": {
+    "sounds": ["mocreaturesrr:moc_horse/eating"]
+  },
+  "moc_horse.donkey_grunt": {
+    "sounds": ["mocreaturesrr:moc_horse/donkeygrunt1", "mocreaturesrr:moc_horse/donkeygrunt2"]
+  },
+  "moc_horse.donkey_hurt": {
+    "sounds": ["mocreaturesrr:moc_horse/donkeyhurt"]
+  },
+  "moc_horse.donkey_death": {
+    "sounds": ["mocreaturesrr:moc_horse/donkeydying"]
+  },
+  "moc_horse.zebra_grunt": {
+    "sounds": ["mocreaturesrr:moc_horse/zebragrunt1", "mocreaturesrr:moc_horse/zebragrunt2"]
+  },
+  "moc_horse.zebra_hurt": {
+    "sounds": ["mocreaturesrr:moc_horse/zebrahurt"]
+  },
+  "moc_horse.drinking":   { "sounds": ["mocreaturesrr:moc_horse/drinking"] },
+  "moc_horse.transform":  { "sounds": ["mocreaturesrr:moc_horse/transform"] },
+  "moc_horse.wing_flap":  { "sounds": ["mocreaturesrr:moc_horse/wing_flap"] },
+  "moc_horse.armor_put":  { "sounds": ["mocreaturesrr:moc_horse/armor_put"] },
+  "moc_horse.armor_off":  { "sounds": ["mocreaturesrr:moc_horse/armor_off"] },
+  "moc_horse_mob.grunt1": { "sounds": ["mocreaturesrr:moc_horse_mob/horsegruntundead1"] },
+  "moc_horse_mob.grunt2": { "sounds": ["mocreaturesrr:moc_horse_mob/horsegruntundead2"] },
+  "moc_horse_mob.hurt": { "sounds": ["mocreaturesrr:moc_horse_mob/horsehurtundead"] },
+  "moc_horse_mob.death": { "sounds": ["mocreaturesrr:moc_horse_mob/horsedyingundead"] },
+  "moc_horse_mob.aggressive": { "sounds": ["mocreaturesrr:moc_horse_mob/horsemad"] },
+
+  "moc_wyvern.grunt": {
+    "sounds": ["mocreaturesrr:moc_wyvern/wyvern_grunt1", "mocreaturesrr:moc_wyvern/wyvern_grunt2", "mocreaturesrr:moc_wyvern/wyvern_grunt3", "mocreaturesrr:moc_wyvern/wyvern_grunt4", "mocreaturesrr:moc_wyvern/wyvern_grunt5"]
+  },
+  "moc_wyvern.hurt": {
+    "sounds": ["mocreaturesrr:moc_wyvern/wyvern_hurt1", "mocreaturesrr:moc_wyvern/wyvern_hurt2"]
+  },
+  "moc_wyvern.death": { "sounds": ["mocreaturesrr:moc_wyvern/wyvern_dying"] },
+  "moc_wyvern.wing_flap": { "sounds": ["mocreaturesrr:moc_wyvern/wyvern_wing_flap"] },
+  "moc_wyvern.poison": { "sounds": ["mocreaturesrr:moc_wyvern/wyvern_poison"] },
+
+  "moc_elephant.ambient": {
+                "sounds": [
+                  "mocreaturesrr:moc_elephant/elephant_grunt1",
+                  "mocreaturesrr:moc_elephant/elephant_grunt2",
+                  "mocreaturesrr:moc_elephant/elephant_grunt3",
+                  "mocreaturesrr:moc_elephant/elephant_grunt4",
+                  "mocreaturesrr:moc_elephant/elephant_grunt5",
+                  "mocreaturesrr:moc_elephant/elephant_grunt6",
+                  "mocreaturesrr:moc_elephant/elephant_grunt7",
+                  "mocreaturesrr:moc_elephant/elephant_grunt8"
+                ]
+              },
+  "moc_elephant.ambient_baby": { "sounds": ["mocreaturesrr:moc_elephant/elephant_calf1", "mocreaturesrr:moc_elephant/elephant_calf2"] },
+  "moc_elephant.hurt": { "sounds": ["mocreaturesrr:moc_elephant/elephant_hurt1", "mocreaturesrr:moc_elephant/elephant_hurt2"] },
+  "moc_elephant.death": { "sounds": ["mocreaturesrr:moc_elephant/elephant_dying"] },
+
+  "moc_big_cat.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_big_cat/lion_grunt1",
+      "mocreaturesrr:moc_big_cat/lion_grunt2",
+      "mocreaturesrr:moc_big_cat/lion_grunt3"
+    ]
+  },
+  "moc_big_cat.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_big_cat/lion_hurt1",
+      "mocreaturesrr:moc_big_cat/lion_hurt2",
+      "mocreaturesrr:moc_big_cat/lion_hurt3",
+      "mocreaturesrr:moc_big_cat/lion_hurt4"
+    ]
+  },
+  "moc_big_cat.ambient_baby": {
+    "sounds": [
+      "mocreaturesrr:moc_big_cat/cub_grunt1",
+      "mocreaturesrr:moc_big_cat/cub_grunt2",
+      "mocreaturesrr:moc_big_cat/cub_grunt3",
+      "mocreaturesrr:moc_big_cat/cub_grunt4",
+      "mocreaturesrr:moc_big_cat/cub_grunt5",
+      "mocreaturesrr:moc_big_cat/cub"
+    ]
+  },
+  "moc_big_cat.hurt_baby": {
+    "sounds": [
+      "mocreaturesrr:moc_big_cat/cub_hurt1",
+      "mocreaturesrr:moc_big_cat/cub_hurt2",
+      "mocreaturesrr:moc_big_cat/cub_hurt3"
+    ]
+  },
+  "moc_big_cat.death_baby": { "sounds": ["mocreaturesrr:moc_big_cat/cub_dying"] },
+  "moc_big_cat.death": { "sounds": ["mocreaturesrr:moc_big_cat/lion_death"] },
+
+  "moc_scorpion.sting": {
+    "sounds": [
+      "mocreaturesrr:moc_scorpion/scorpion_sting1",
+      "mocreaturesrr:moc_scorpion/scorpion_sting2"
+    ]
+  },
+  "moc_scorpion.claw": { "sounds": ["mocreaturesrr:moc_scorpion/scorpion_claw"] },
+  "moc_scorpion.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_scorpion/scorpion_grunt1",
+      "mocreaturesrr:moc_scorpion/scorpion_grunt2",
+      "mocreaturesrr:moc_scorpion/scorpion_grunt3",
+      "mocreaturesrr:moc_scorpion/scorpion_grunt4"
+    ]
+  },
+  "moc_scorpion.hurt": { "sounds": ["mocreaturesrr:moc_scorpion/scorpion_hurt"] },
+  "moc_scorpion.death": { "sounds": ["mocreaturesrr:moc_scorpion/scorpion_dying"] },
+
+  "moc_ostrich.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_ostrich/ostrich_grunt1",
+      "mocreaturesrr:moc_ostrich/ostrich_grunt2"
+    ]
+  },
+  "moc_ostrich.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_ostrich/ostrich_hurt1",
+      "mocreaturesrr:moc_ostrich/ostrich_hurt2"
+    ]
+  },
+  "moc_ostrich.death": { "sounds": ["mocreaturesrr:moc_ostrich/ostrich_dying"] },
+
+  "moc_bear.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_bear/bear_grunt1",
+      "mocreaturesrr:moc_bear/bear_grunt2",
+      "mocreaturesrr:moc_bear/bear_grunt3",
+      "mocreaturesrr:moc_bear/bear_grunt4",
+      "mocreaturesrr:moc_bear/bear_grunt5"
+    ]
+  },
+  "moc_bear.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_bear/bear_hurt1",
+      "mocreaturesrr:moc_bear/bear_hurt2"
+    ]
+  },
+  "moc_bear.death": {
+    "sounds": [
+      "mocreaturesrr:moc_bear/bear_death"
+    ]
+  },
+
+  "moc_fox.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_fox/fox_call2",
+      "mocreaturesrr:moc_fox/fox_call3",
+      "mocreaturesrr:moc_fox/fox_call4",
+      "mocreaturesrr:moc_fox/fox_call5"
+    ]
+  },
+  "moc_fox.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_fox/fox_hurt1",
+      "mocreaturesrr:moc_fox/fox_hurt2"
+    ]
+  },
+  "moc_fox.death": {
+    "sounds": [
+      "mocreaturesrr:moc_fox/fox_dying"
+    ]
+  },
+
+  "moc_raccoon.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_raccoon/raccoon_grunt1",
+      "mocreaturesrr:moc_raccoon/raccoon_grunt2",
+      "mocreaturesrr:moc_raccoon/raccoon_grunt3",
+      "mocreaturesrr:moc_raccoon/raccoon_grunt4"
+    ]
+  },
+  "moc_raccoon.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_raccoon/raccoon_hurt1",
+      "mocreaturesrr:moc_raccoon/raccoon_hurt2"
+    ]
+  },
+  "moc_raccoon.death": {
+    "sounds": [
+      "mocreaturesrr:moc_raccoon/raccoon_dying"
+    ]
+  },
+
+  "moc_turkey.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_turkey/turkey_gobble1",
+      "mocreaturesrr:moc_turkey/turkey_gobble2"
+    ]
+  },
+  "moc_turkey.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_turkey/turkey_hurt"
+    ]
+  },
+
+  "moc_goat.ambient_male": { "sounds": ["mocreaturesrr:moc_goat/goat_grunt_male"] },
+  "moc_goat.ambient_female": { "sounds": ["mocreaturesrr:moc_goat/goat_grunt_female"] },
+  "moc_goat.ambient_baby": { "sounds": ["mocreaturesrr:moc_goat/goat_grunt_baby"] },
+  "moc_goat.hurt": { "sounds": ["mocreaturesrr:moc_goat/goat_hurt"] },
+  "moc_goat.death": { "sounds": ["mocreaturesrr:moc_goat/goat_dying"] },
+  "moc_goat.eating": { "sounds": ["mocreaturesrr:moc_goat/goat_eating"] },
+  "moc_goat.dig": { "sounds": ["mocreaturesrr:moc_goat/goat_dig"] },
+  "moc_goat.smack": { "sounds": ["mocreaturesrr:moc_goat/goat_smack"] },
+
+"moc_kitty.ambient": {
+    "sounds": ["mocreaturesrr:moc_kitty/kitty_grunt1", "mocreaturesrr:moc_kitty/kitty_grunt2"]
+  },
+  "moc_kitty.ambient_baby": {
+    "sounds": ["mocreaturesrr:moc_kitty/kitty_baby_grunt"]
+  },
+  "moc_kitty.hurt": {
+    "sounds": ["mocreaturesrr:moc_kitty/kitty_hurt1", "mocreaturesrr:moc_kitty/kitty_hurt2", "mocreaturesrr:moc_kitty/kitty_hurt3"]
+  },
+  "moc_kitty.hurt_baby": {
+    "sounds": ["mocreaturesrr:moc_kitty/kitty_baby_hurt1", "mocreaturesrr:moc_kitty/kitty_baby_hurt2"]
+  },
+  "moc_kitty.death": {
+    "sounds": ["mocreaturesrr:moc_kitty/kitty_dying1", "mocreaturesrr:moc_kitty/kitty_dying2"]
+  },
+  "moc_kitty.death_baby": {
+    "sounds": ["mocreaturesrr:moc_kitty/kitty_baby_dying"]
+  },
+  "moc_kitty.eating": {
+    "sounds": ["mocreaturesrr:moc_kitty/kitty_eating"]
+  },
+  "moc_kitty.eating_fish": {
+    "sounds": ["mocreaturesrr:moc_kitty/kitty_eating_fish"]
+  },
+  "moc_kitty.pouring_food": {
+    "sounds": ["mocreaturesrr:moc_kitty/pouring_food"]
+  },
+  "moc_kitty.pouring_milk": {
+    "sounds": ["mocreaturesrr:moc_kitty/pouring_milk"]
+  },
+  "moc_kitty.food": {
+    "sounds": [
+      "mocreaturesrr:moc_kitty/kitty_food1", "mocreaturesrr:moc_kitty/kitty_food2",
+      "mocreaturesrr:moc_kitty/kitty_food3", "mocreaturesrr:moc_kitty/kitty_food4"
+    ]
+  },
+  "moc_kitty.purr": {
+    "sounds": ["mocreaturesrr:moc_kitty/kitty_purr1", "mocreaturesrr:moc_kitty/kitty_purr2"]
+  },
+  "moc_kitty.trapped": {
+    "sounds": ["mocreaturesrr:moc_kitty/kitty_trapped"]
+  },
+  "moc_kitty.upset": {
+    "sounds": [
+      "mocreaturesrr:moc_kitty/kitty_upset1", "mocreaturesrr:moc_kitty/kitty_upset2", "mocreaturesrr:moc_kitty/kitty_upset3"
+    ]
+  },
+
+  
+  "moc_turtle.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_turtle/turtle_hurt"
+    ]
+  },
+  "moc_turtle.death": {
+    "sounds": [
+      "mocreaturesrr:moc_turtle/turtle_dying"
+    ]
+  },
+  "moc_turtle.angry": {
+    "sounds": [
+      "mocreaturesrr:moc_turtle/turtle_hissing"
+    ]
+  },
+
+  "moc_dolphin.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_dolphin/dolphin_call1",
+      "mocreaturesrr:moc_dolphin/dolphin_call2",
+      "mocreaturesrr:moc_dolphin/dolphin_call3",
+      "mocreaturesrr:moc_dolphin/dolphin_call4",
+      "mocreaturesrr:moc_dolphin/dolphin_call5",
+      "mocreaturesrr:moc_dolphin/dolphin_call6"
+    ]
+  },
+  "moc_dolphin.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_dolphin/dolphin_hurt1",
+      "mocreaturesrr:moc_dolphin/dolphin_hurt2"
+    ]
+  },
+  "moc_dolphin.death": {
+    "sounds": [
+      "mocreaturesrr:moc_dolphin/dolphin_dying1",
+      "mocreaturesrr:moc_dolphin/dolphin_dying2",
+      "mocreaturesrr:moc_dolphin/dolphin_dying3"
+    ]
+  },
+  "moc_dolphin.upset": {
+    "sounds": [
+      "mocreaturesrr:moc_dolphin/dolphin_upset"
+    ]
+  },
+
+  "moc_komodo.hiss1": { "sounds": ["mocreaturesrr:moc_snake/snake_hiss1"] },
+  "moc_komodo.hiss2": { "sounds": ["mocreaturesrr:moc_snake/snake_hiss2"] },
+  "moc_komodo.hurt": { "sounds": ["mocreaturesrr:moc_snake/snake_hurt"] },
+  "moc_komodo.death": { "sounds": ["mocreaturesrr:moc_snake/snake_dying"] },
+
+  "moc_crocodile.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_crocodile/croc_grunt1",
+      "mocreaturesrr:moc_crocodile/croc_grunt2",
+      "mocreaturesrr:moc_crocodile/croc_grunt3"
+    ]
+  },
+  "moc_crocodile.death": {
+    "sounds": [
+      "mocreaturesrr:moc_crocodile/croc_dying"
+    ]
+  },
+  "moc_crocodile.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_crocodile/croc_hurt1",
+      "mocreaturesrr:moc_crocodile/croc_hurt2",
+      "mocreaturesrr:moc_crocodile/croc_hurt3"
+    ]
+  },
+  "moc_crocodile.jaw_snap": {
+    "sounds": [
+      "mocreaturesrr:moc_crocodile/croc_jaw_snap1",
+      "mocreaturesrr:moc_crocodile/croc_jaw_snap2"
+    ]
+  },
+  "moc_crocodile.resting": {
+    "sounds": [
+      "mocreaturesrr:moc_crocodile/croc_resting1",
+      "mocreaturesrr:moc_crocodile/croc_resting2"
+    ]
+  },
+  "moc_crocodile.roll": {
+    "sounds": [
+      "mocreaturesrr:moc_crocodile/croc_roll"
+    ]
+  },
+
+  "moc_snake.ambient": { "sounds": ["mocreaturesrr:moc_snake/snake_hiss1", "mocreaturesrr:moc_snake/snake_hiss2"] },
+  "moc_snake.angry": { "sounds": ["mocreaturesrr:moc_snake/snake_upset1", "mocreaturesrr:moc_snake/snake_upset2"] },
+  "moc_snake.rattle": { "sounds": ["mocreaturesrr:moc_snake/snake_rattle1", "mocreaturesrr:moc_snake/snake_rattle2"] },
+  "moc_snake.snap": { "sounds": ["mocreaturesrr:moc_snake/snake_snap"] },
+  "moc_snake.swim": { "sounds": ["mocreaturesrr:moc_snake/snake_swim"] },
+  "moc_snake.hurt": { "sounds": ["mocreaturesrr:moc_snake/snake_hurt"] },
+  "moc_snake.death": { "sounds": ["mocreaturesrr:moc_snake/snake_dying"] },
+
+  "moc_bunny.hurt": { "sounds": ["mocreaturesrr:moc_bunny/rabbit_hurt1", "mocreaturesrr:moc_bunny/rabbit_hurt2"] },
+  "moc_bunny.death": { "sounds": ["mocreaturesrr:moc_bunny/rabbit_dying"] },
+  "moc_bunny.lift": { "sounds": ["mocreaturesrr:moc_bunny/rabbit_lift"] },
+  "moc_bunny.land": { "sounds": ["mocreaturesrr:moc_bunny/rabbit_land"] },
+
+  "moc_bird.ambient_white": { "sounds": ["mocreaturesrr:moc_bird/bird_white1"] },
+  "moc_bird.ambient_black": { "sounds": ["mocreaturesrr:moc_bird/bird_black1", "mocreaturesrr:moc_bird/bird_black2", "mocreaturesrr:moc_bird/bird_black3"] },
+  "moc_bird.ambient_green": { "sounds": ["mocreaturesrr:moc_bird/bird_green1", "mocreaturesrr:moc_bird/bird_green2", "mocreaturesrr:moc_bird/bird_green3"] },
+  "moc_bird.ambient_blue": { "sounds": ["mocreaturesrr:moc_bird/bird_blue1", "mocreaturesrr:moc_bird/bird_blue2", "mocreaturesrr:moc_bird/bird_blue3", "mocreaturesrr:moc_bird/bird_blue4"] },
+  "moc_bird.ambient_yellow": { "sounds": ["mocreaturesrr:moc_bird/bird_yellow1", "mocreaturesrr:moc_bird/bird_yellow2", "mocreaturesrr:moc_bird/bird_yellow3", "mocreaturesrr:moc_bird/bird_yellow4", "mocreaturesrr:moc_bird/bird_yellow5"] },
+  "moc_bird.ambient_red": { "sounds": ["mocreaturesrr:moc_bird/bird_red1", "mocreaturesrr:moc_bird/bird_red2", "mocreaturesrr:moc_bird/bird_red3", "mocreaturesrr:moc_bird/bird_red4", "mocreaturesrr:moc_bird/bird_red5"] },
+
+  "item.horse_grunt_undead1": { "sounds": ["mocreaturesrr:moc_horse/horse_grunt_undead1"] },
+  "item.horse_grunt_undead2": { "sounds": ["mocreaturesrr:moc_horse/horse_grunt_undead2"] },
+  "item.horse_hurt_undead": { "sounds": ["mocreaturesrr:moc_horse/horse_hurt_undead"] },
+  "item.horse_dying_undead": { "sounds": ["mocreaturesrr:moc_horse/horse_dying_undead"] },
+  "item.horse_grunt_ghost1": { "sounds": ["mocreaturesrr:moc_horse/horse_grunt_ghost1"] },
+  "item.horse_grunt_ghost2": { "sounds": ["mocreaturesrr:moc_horse/horse_grunt_ghost2"] },
+  "item.horse_grunt_ghost3": { "sounds": ["mocreaturesrr:moc_horse/horse_grunt_ghost3"] },
+  "item.horse_hurt_ghost": { "sounds": ["mocreaturesrr:moc_horse/horse_hurt_ghost"] },
+  "item.horse_dying_ghost": { "sounds": ["mocreaturesrr:moc_horse/horse_dying_ghost"] },
+  "item.horse_mad_ghost": { "sounds": ["mocreaturesrr:moc_horse/horse_mad_ghost"] },
+  "item.horse_mad": { "sounds": ["mocreaturesrr:moc_horse/horse_mad"] },
+  "moc_horse.amulet_appear": { "sounds": ["mocreaturesrr:moc_horse/appear"] },
+  "moc_horse.amulet_appear_magic": { "sounds": ["mocreaturesrr:moc_horse/appear_magic"] },
+  "moc_horse.amulet_vanish": { "sounds": ["mocreaturesrr:moc_horse/vanish"] },
+  "item.whip": {
+    "sounds": ["mocreaturesrr:items/whip"]
+  },
+  "item.horse_mad_undead": { "sounds": ["mocreaturesrr:moc_horse/horse_mad_undead"] },
+  "records.shuffling": {
+    "sounds": ["mocreaturesrr:records/shuffling"],
+    "subtitle": "record.mocreaturesrr.shuffling"
+  },
+
+  "moc_ogre.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_ogre/ogre_grunt1",
+      "mocreaturesrr:moc_ogre/ogre_grunt2",
+      "mocreaturesrr:moc_ogre/ogre_grunt3"
+    ]
+  },
+  "moc_ogre.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_ogre/ogre_hurt"
+    ]
+  },
+  "moc_ogre.death": {
+    "sounds": [
+      "mocreaturesrr:moc_ogre/ogre_dying"
+    ]
+  },
+
+  "moc_deer.ambient": {
+    "sounds": [ "mocreaturesrr:moc_deer/deer_grunt" ]
+  },
+  "moc_deer.ambient_baby": {
+    "sounds": [ "mocreaturesrr:moc_deer/deer_fawn_grunt" ]
+  },
+  "moc_deer.hurt": {
+    "sounds": [ "mocreaturesrr:moc_deer/deer_hurt" ]
+  },
+  "moc_deer.death": {
+    "sounds": [ "mocreaturesrr:moc_deer/deer_dying" ]
+  },
+  "moc_rat.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_rat/rat_grunt1",
+      "mocreaturesrr:moc_rat/rat_grunt2",
+      "mocreaturesrr:moc_rat/rat_grunt3",
+      "mocreaturesrr:moc_rat/rat_grunt4"
+    ]
+  },
+  "moc_rat.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_rat/rat_hurt1",
+      "mocreaturesrr:moc_rat/rat_hurt2"
+    ]
+  },
+  "moc_rat.death": {
+    "sounds": [
+      "mocreaturesrr:moc_rat/rat_dying"
+    ]
+  },
+  "moc_hell_rat.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_hell_rat/hell_rat_grunt1",
+      "mocreaturesrr:moc_hell_rat/hell_rat_grunt2",
+      "mocreaturesrr:moc_hell_rat/hell_rat_grunt3",
+      "mocreaturesrr:moc_hell_rat/hell_rat_grunt4"
+    ]
+  },
+  "moc_hell_rat.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_hell_rat/hell_rat_hurt1",
+      "mocreaturesrr:moc_hell_rat/hell_rat_hurt2"
+    ]
+  },
+  "moc_hell_rat.death": {
+    "sounds": [
+      "mocreaturesrr:moc_hell_rat/hell_rat_dying"
+    ]
+  },
+  "moc_mouse.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_mouse/mice_grunt1",
+      "mocreaturesrr:moc_mouse/mice_grunt2",
+      "mocreaturesrr:moc_mouse/mice_grunt3"
+    ]
+  },
+  "moc_mouse.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_mouse/mice_hurt1",
+      "mocreaturesrr:moc_mouse/mice_hurt2",
+      "mocreaturesrr:moc_mouse/mice_hurt3"
+    ]
+  },
+  "moc_mouse.death": {
+    "sounds": [
+      "mocreaturesrr:moc_mouse/mice_dying1",
+      "mocreaturesrr:moc_mouse/mice_dying2"
+    ]
+  },
+  "moc_duck.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_duck/duck_quack1",
+      "mocreaturesrr:moc_duck/duck_quack2",
+      "mocreaturesrr:moc_duck/duck_quack3"
+    ]
+  },
+  "moc_duck.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_duck/duck_hurt1",
+      "mocreaturesrr:moc_duck/duck_hurt2"
+    ]
+  },
+  "moc_fly.buzz": {
+    "sounds": [ "mocreaturesrr:moc_fly/fly_buzz" ]
+  },
+  "moc_fly.hurt": {
+    "sounds": [ "mocreaturesrr:moc_fly/fly_hurt" ]
+  },
+  "moc_dragonfly.buzz": {
+    "sounds": [ "mocreaturesrr:moc_dragonfly/dragonfly_buzz" ]
+  },
+  "moc_dragonfly.hurt": {
+    "sounds": [ "mocreaturesrr:moc_dragonfly/dragonfly_hurt" ]
+  },
+  "moc_grasshopper.fly": {
+    "sounds": [ "mocreaturesrr:moc_grasshopper/grasshopper_fly" ]
+  },
+  "moc_grasshopper.hurt": {
+    "sounds": [ "mocreaturesrr:moc_grasshopper/grasshopper_hurt" ]
+  },
+  "moc_bee.buzz": {
+    "sounds": [
+      "mocreaturesrr:moc_bee/bee_buzz1",
+      "mocreaturesrr:moc_bee/bee_buzz2",
+      "mocreaturesrr:moc_bee/bee_buzz3"
+    ]
+  },
+  "moc_bee.hurt": {
+    "sounds": [ "mocreaturesrr:moc_bee/bee_hurt" ]
+  },
+  "moc_bee.upset": {
+    "sounds": [ "mocreaturesrr:moc_bee/bee_upset" ]
+  },
+  "moc_cricket.ambient": {
+    "sounds": [ "mocreaturesrr:moc_cricket/cricket_ambient" ]
+  },
+  "moc_cricket.chirp": {
+    "sounds": [
+      "mocreaturesrr:moc_cricket/cricket_chirp1",
+      "mocreaturesrr:moc_cricket/cricket_chirp2",
+      "mocreaturesrr:moc_cricket/cricket_chirp3"
+    ]
+  },
+  "moc_cricket.hurt": {
+    "sounds": [ "mocreaturesrr:moc_cricket/cricket_hurt" ]
+  },
+  "moc_grasshopper.chirp": {
+    "sounds": [
+      "mocreaturesrr:moc_grasshopper/grasshopper_chirp1",
+      "mocreaturesrr:moc_grasshopper/grasshopper_chirp2",
+      "mocreaturesrr:moc_grasshopper/grasshopper_chirp3"
+    ]
+  },
+  "moc_firefly.ambient": {
+    "sounds": [ "mocreaturesrr:moc_firefly/firefly" ]
+  },
+  "moc_wraith.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_wraith/wraith_haunt1",
+      "mocreaturesrr:moc_wraith/wraith_haunt2",
+      "mocreaturesrr:moc_wraith/wraith_haunt3"
+    ]
+  },
+  "moc_wraith.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_wraith/wraith_hurt1",
+      "mocreaturesrr:moc_wraith/wraith_hurt2"
+    ]
+  },
+  "moc_wraith.death": {
+    "sounds": [ "mocreaturesrr:moc_wraith/wraith_dying" ]
+  },
+  "moc_golem.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_golem/golem_grunt1",
+      "mocreaturesrr:moc_golem/golem_grunt2"
+    ]
+  },
+  "moc_golem.hurt": {
+    "sounds": [ "mocreaturesrr:moc_golem/golem_hurt" ]
+  },
+  "moc_golem.death": {
+    "sounds": [ "mocreaturesrr:moc_golem/golem_dying" ]
+  },
+  "moc_golem.step": {
+    "sounds": [ "mocreaturesrr:moc_golem/golem_step" ]
+  },
+  "moc_golem.attach": {
+    "sounds": [ "mocreaturesrr:moc_golem/golem_attach" ]
+  },
+  "moc_golem.shoot": {
+    "sounds": [
+      "mocreaturesrr:moc_golem/golem_shoot1",
+      "mocreaturesrr:moc_golem/golem_shoot2"
+    ]
+  },
+  "moc_golem.explode": {
+    "sounds": [ "mocreaturesrr:moc_golem/golem_explode" ]
+  }, 
+  "moc_werewolf.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_werewolf/werewolf_grunt1",
+      "mocreaturesrr:moc_werewolf/werewolf_grunt2",
+      "mocreaturesrr:moc_werewolf/werewolf_grunt3",
+      "mocreaturesrr:moc_werewolf/werewolf_grunt4"
+    ]
+  },
+  "moc_werewolf.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_werewolf/werewolf_hurt1",
+      "mocreaturesrr:moc_werewolf/werewolf_hurt2"
+    ]
+  },
+  "moc_werewolf.death": {
+    "sounds": [
+      "mocreaturesrr:moc_werewolf/werewolf_dying1",
+      "mocreaturesrr:moc_werewolf/werewolf_dying2"
+    ]
+  },
+  "moc_werewolf.transform": {
+    "sounds": [
+      "mocreaturesrr:moc_werewolf/werewolf_transform1",
+      "mocreaturesrr:moc_werewolf/werewolf_transform2",
+      "mocreaturesrr:moc_werewolf/werewolf_transform3"
+    ]
+  },
+    "moc_werewolf.werehuman_hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_werewolf/werehuman_hurt_legacy1",
+      "mocreaturesrr:moc_werewolf/werehuman_hurt_legacy2"
+    ]
+  },
+  "moc_werewolf.werehuman_death": {
+    "sounds": [
+      "mocreaturesrr:moc_werewolf/werehuman_dying_legacy1",
+      "mocreaturesrr:moc_werewolf/werehuman_dying_legacy2"
+    ]
+  },
+  "moc_werewolf.werehuman_transform": {
+    "sounds": [
+      "mocreaturesrr:moc_werewolf/werewolf_transform_legacy1",
+      "mocreaturesrr:moc_werewolf/werewolf_transform_legacy2",
+      "mocreaturesrr:moc_werewolf/werewolf_transform_legacy3"
+    ]
+  },
+    "moc_wild_wolf.ambient": {
+    "sounds": [
+      "mocreaturesrr:moc_wild_wolf/wild_wolf_grunt1",
+      "mocreaturesrr:moc_wild_wolf/wild_wolf_grunt2",
+      "mocreaturesrr:moc_wild_wolf/wild_wolf_grunt3"
+    ]
+  },
+  "moc_wild_wolf.hurt": {
+    "sounds": [
+      "mocreaturesrr:moc_wild_wolf/wild_wolf_hurt1",
+      "mocreaturesrr:moc_wild_wolf/wild_wolf_hurt2"
+    ]
+  },
+  "moc_wild_wolf.death": {
+    "sounds": [
+      "mocreaturesrr:moc_wild_wolf/wild_wolf_death"
+    ]
+  }
+}

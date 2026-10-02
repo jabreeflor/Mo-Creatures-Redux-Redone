@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PYL",
+    "RMR",
+    "BWB"
+  ],
+  "key": {
+    "W": "minecraft:yellow_wool",
+    "B": "minecraft:blue_wool",
+    "R": "minecraft:red_wool",
+    "P": "minecraft:pink_dye",
+    "Y": "minecraft:yellow_dye",
+    "L": "minecraft:lime_dye",
+    "M": "mocreaturesrr:medallion"
+  },
+  "result": {
+    "id": "mocreaturesrr:elephant_garment",
+    "count": 1
+  }
+}

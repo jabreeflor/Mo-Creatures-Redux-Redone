@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mocreaturesrr:scorp_plate_cave", "mocreaturesrr:scorp_plate_dirt", "mocreaturesrr:scorp_plate_nether",
+    "mocreaturesrr:scorp_plate_frost", "mocreaturesrr:scorp_plate_undead",
+    "mocreaturesrr:ancient_silver_chestplate",
+    "mocreaturesrr:fur_chest", "mocreaturesrr:reptile_plate", "mocreaturesrr:hide_chest"
+  ]
+}

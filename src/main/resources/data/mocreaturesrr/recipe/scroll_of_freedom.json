@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PF",
+    "R "
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "F": "minecraft:feather",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "mocreaturesrr:scroll_of_freedom",
+    "count": 1
+  }
+}

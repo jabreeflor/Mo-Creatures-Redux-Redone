@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#mocreaturesrr:spawns/horse_zebra",
+  "spawners": [
+    {
+      "type": "mocreaturesrr:moc_horse",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 6
+      },
+      "weight": 12
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "mocreaturesrr:venison_raw",
+  "result": {
+    "id": "mocreaturesrr:venison_cooked",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

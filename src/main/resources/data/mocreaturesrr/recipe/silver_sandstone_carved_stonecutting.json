@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "mocreaturesrr:silver_sandstone",
+  "result": {
+    "id": "mocreaturesrr:silver_sandstone_carved",
+    "count": 1
+  }
+}

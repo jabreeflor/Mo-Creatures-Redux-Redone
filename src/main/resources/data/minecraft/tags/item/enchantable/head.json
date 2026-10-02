@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mocreaturesrr:scorp_helmet_cave", "mocreaturesrr:scorp_helmet_dirt", "mocreaturesrr:scorp_helmet_nether",
+    "mocreaturesrr:scorp_helmet_frost", "mocreaturesrr:scorp_helmet_undead",
+    "mocreaturesrr:ancient_silver_helmet",
+    "mocreaturesrr:fur_helmet", "mocreaturesrr:reptile_helmet", "mocreaturesrr:hide_helmet"
+  ]
+}

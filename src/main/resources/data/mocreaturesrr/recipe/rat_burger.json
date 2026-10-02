@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PB ",
+    "SRS",
+    " B "
+  ],
+  "key": {
+    "B": "minecraft:bread",
+    "S": "minecraft:wheat_seeds",
+    "P": "minecraft:pumpkin_seeds",
+    "R": "mocreaturesrr:rat_cooked"
+  },
+  "result": {
+    "id": "mocreaturesrr:rat_burger",
+    "count": 1
+  }
+}

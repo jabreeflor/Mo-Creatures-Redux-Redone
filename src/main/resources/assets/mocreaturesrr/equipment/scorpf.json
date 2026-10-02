@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mocreaturesrr:scorpf"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mocreaturesrr:scorpf"
+      }
+    ]
+  }
+}

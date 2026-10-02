@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mocreaturesrr:is_wyvern_lair",
+  "features": ["mocreaturesrr:wyvern_island"],
+  "step": "surface_structures"
+}
