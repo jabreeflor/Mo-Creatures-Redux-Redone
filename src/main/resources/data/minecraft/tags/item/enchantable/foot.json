@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mocreaturesrr:scorp_boots_cave", "mocreaturesrr:scorp_boots_dirt", "mocreaturesrr:scorp_boots_nether",
+    "mocreaturesrr:scorp_boots_frost", "mocreaturesrr:scorp_boots_undead",
+    "mocreaturesrr:ancient_silver_boots",
+    "mocreaturesrr:fur_boots", "mocreaturesrr:reptile_boots", "mocreaturesrr:hide_boots"
+  ]
+}

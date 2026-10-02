@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XS",
+    "SS"
+  ],
+  "key": {
+    "X": "minecraft:diamond_sword",
+    "S": "mocreaturesrr:scorp_sting_cave"
+  },
+  "result": {
+    "id": "mocreaturesrr:scorp_sword_cave",
+    "count": 1
+  }
+}

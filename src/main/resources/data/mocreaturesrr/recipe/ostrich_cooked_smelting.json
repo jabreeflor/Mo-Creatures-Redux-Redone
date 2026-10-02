@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "mocreaturesrr:ostrich_raw",
+  "result": {
+    "id": "mocreaturesrr:ostrich_cooked",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    " E ",
+    "X X"
+  ],
+  "key": {
+    "X": "minecraft:gold_nugget",
+    "E": "minecraft:diamond"
+  },
+  "result": {
+    "id": "mocreaturesrr:pet_amulet",
+    "count": 1
+  }
+}

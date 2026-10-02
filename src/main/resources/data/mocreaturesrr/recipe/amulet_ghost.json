@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XGX",
+    "GEG",
+    "XGX"
+  ],
+  "key": {
+    "X": "minecraft:bone",
+    "G": "minecraft:gold_nugget",
+    "E": "minecraft:ghast_tear"
+  },
+  "result": {
+    "id": "mocreaturesrr:amulet_ghost",
+    "count": 1
+  }
+}

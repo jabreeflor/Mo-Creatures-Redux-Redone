@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#mocreaturesrr:spawns/wyvern_mountains",
+  "spawners": [
+    {
+      "type": "mocreaturesrr:wyvern",
+      "count": 1,
+      "weight": 2
+    }
+  ]
+}

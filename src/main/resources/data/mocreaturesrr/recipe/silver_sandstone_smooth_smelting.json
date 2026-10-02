@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "mocreaturesrr:silver_sandstone",
+  "result": {
+    "id": "mocreaturesrr:silver_sandstone_smooth",
+    "count": 1
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#mocreaturesrr:spawns/elephant_african",
+  "spawners": [
+    {
+      "type": "mocreaturesrr:moc_elephant",
+      "count": 3,
+      "weight": 12
+    }
+  ]
+}

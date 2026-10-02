@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mocreaturesrr:block/tall_grass_ogre_lair"
+  }
+}

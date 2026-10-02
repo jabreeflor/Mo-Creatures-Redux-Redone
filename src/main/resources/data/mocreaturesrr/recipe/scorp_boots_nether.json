@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": "mocreaturesrr:chitin_nether"
+  },
+  "result": {
+    "id": "mocreaturesrr:scorp_boots_nether",
+    "count": 1
+  }
+}

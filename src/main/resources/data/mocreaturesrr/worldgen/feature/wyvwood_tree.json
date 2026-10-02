@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:tree",
+  "below_trunk_provider": "minecraft:soil_beneath_tree",
+  "decorators": [],
+  "foliage_placer": {
+    "type": "minecraft:blob_foliage_placer",
+    "radius": 0,
+    "offset": 0,
+    "height": 0
+  },
+  "foliage_provider": {
+    "id": "mocreaturesrr:wyvwood_leaves",
+    "properties": {
+      "distance": "7",
+      "persistent": "true",
+      "waterlogged": "false"
+    }
+  },
+  "ignore_vines": true,
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size",
+    "limit": 1,
+    "lower_size": 0,
+    "upper_size": 4
+  },
+  "trunk_placer": {
+    "type": "mocreaturesrr:wyvwood_small_trunk_placer",
+    "base_height": 9,
+    "height_rand_a": 2,
+    "height_rand_b": 2,
+    "trunk_radius": 1,
+    "branches": {
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 6,
+        "max_inclusive": 9
+      },
+      "length": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 5
+      }
+    },
+    "branch_canopy": {
+      "max_radius": 2,
+      "layers": 3
+    },
+    "main_canopy": {
+      "max_radius": 3,
+      "layers": 3
+    },
+    "roots": {
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 8
+      },
+      "length": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 4
+      },
+      "max_depth_per_step": 5
+    }
+  },
+  "trunk_provider": {
+    "id": "mocreaturesrr:wyvwood_log",
+    "properties": {
+      "axis": "y"
+    }
+  }
+}

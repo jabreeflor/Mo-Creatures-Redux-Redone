@@ -1,0 +1,6 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "mocreaturesrr:block/leaves_ogre_lair"
+  }
+}

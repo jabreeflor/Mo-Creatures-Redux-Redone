@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": "mocreaturesrr:firestone_chunk"
+  },
+  "result": {
+    "id": "mocreaturesrr:ore_firestone",
+    "count": 1
+  }
+}

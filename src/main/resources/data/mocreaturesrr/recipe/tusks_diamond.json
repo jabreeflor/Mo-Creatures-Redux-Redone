@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M  ",
+    "MS ",
+    "MMM"
+  ],
+  "key": {
+    "M": "minecraft:diamond",
+    "S": "minecraft:lead"
+  },
+  "result": {
+    "id": "mocreaturesrr:tusks_diamond",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mocreaturesrr:block/sand_silver"
+  }
+}

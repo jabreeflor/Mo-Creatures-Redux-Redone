@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "mocreaturesrr:silver_axe",
+    "mocreaturesrr:shark_axe",
+    "mocreaturesrr:scorp_axe_cave",
+    "mocreaturesrr:scorp_axe_dirt",
+    "mocreaturesrr:scorp_axe_frost",
+    "mocreaturesrr:scorp_axe_nether",
+    "mocreaturesrr:scorp_axe_undead"
+  ]
+}

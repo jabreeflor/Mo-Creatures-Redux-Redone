@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "mocreaturesrr:duck_raw",
+  "result": {
+    "id": "mocreaturesrr:duck_cooked",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

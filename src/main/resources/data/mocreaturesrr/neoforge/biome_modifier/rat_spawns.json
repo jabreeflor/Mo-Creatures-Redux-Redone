@@ -1,0 +1,24 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_overworld",
+      {
+        "type": "neoforge:not",
+        "value": "#mocreaturesrr:no_hostile_spawns"
+      }
+    ]
+  },
+  "spawners": [
+    {
+      "type": "mocreaturesrr:moc_rat",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 5
+      },
+      "weight": 100
+    }
+  ]
+}

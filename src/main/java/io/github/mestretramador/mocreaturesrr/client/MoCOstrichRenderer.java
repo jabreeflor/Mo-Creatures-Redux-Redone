@@ -1,0 +1,54 @@
+package io.github.mestretramador.mocreaturesrr.client;
+
+import io.github.mestretramador.mocreaturesrr.MoCreaturesReduxRedone;
+import io.github.mestretramador.mocreaturesrr.entity.MoCOstrichEntity;
+
+import net.minecraft.client.model.geom.ModelLayerLocation;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.resources.Identifier;
+
+public class MoCOstrichRenderer extends MoCMobRenderer<MoCOstrichEntity, MoCOstrichModel> {
+
+    public static final ModelLayerLocation MOC_OSTRICH_LAYER =
+            new ModelLayerLocation(Identifier.fromNamespaceAndPath(MoCreaturesReduxRedone.MODID, "moc_ostrich"), "main");
+
+    public MoCOstrichRenderer(EntityRendererProvider.Context context) {
+        super(context, new MoCOstrichModel(context.bakeLayer(MOC_OSTRICH_LAYER)), 0.6F);
+    }
+
+    @Override
+    public Identifier getTextureLocation(MoCOstrichEntity entity) {
+        if (entity.isBaby()) {
+            return Identifier.fromNamespaceAndPath(MoCreaturesReduxRedone.MODID,
+                    "textures/entity/moc_ostrich/ostrich_baby.png");
+        }
+
+        int currentEssence = entity.getEssence();
+        if (entity.isTransforming()) {
+            int ticksLeft = entity.getTransformTicks();
+            int interval = Math.max(1, ticksLeft / 8);
+            boolean showTarget = (entity.tickCount / interval) % 2 == 0;
+            if (showTarget) {
+                currentEssence = entity.getPendingEssence();
+            }
+        }
+
+        String textureName = essenceTextureName(currentEssence, entity.getVariant());
+        return Identifier.fromNamespaceAndPath(MoCreaturesReduxRedone.MODID,
+                "textures/entity/moc_ostrich/" + textureName + ".png");
+    }
+
+    private static String essenceTextureName(int essence, io.github.mestretramador.mocreaturesrr.entity.ostrich.OstrichVariant variant) {
+        return switch (essence) {
+            case MoCOstrichEntity.ESSENCE_WYVERN -> "ostrich_dark";
+            case MoCOstrichEntity.ESSENCE_FIRE -> "ostrich_fire";
+            case MoCOstrichEntity.ESSENCE_UNDEAD -> "ostrich_undead";
+            case MoCOstrichEntity.ESSENCE_UNIHORNED -> "ostrich_light";
+            default -> variant.getTextureName();
+        };
+    }
+    @Override
+    protected boolean showsHealthBar() {
+        return true;
+    }
+}

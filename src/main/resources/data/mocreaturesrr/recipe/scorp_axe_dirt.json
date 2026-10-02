@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XS",
+    "SS"
+  ],
+  "key": {
+    "X": "minecraft:diamond_axe",
+    "S": "mocreaturesrr:scorp_sting_dirt"
+  },
+  "result": {
+    "id": "mocreaturesrr:scorp_axe_dirt",
+    "count": 1
+  }
+}

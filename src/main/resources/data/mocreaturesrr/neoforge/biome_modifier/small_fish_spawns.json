@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#mocreaturesrr:spawns/small_fish",
+  "spawners": [
+    {
+      "type": "mocreaturesrr:moc_small_fish",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 7
+      },
+      "weight": 17
+    }
+  ]
+}

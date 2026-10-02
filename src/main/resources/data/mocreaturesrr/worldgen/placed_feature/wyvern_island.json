@@ -1,0 +1,33 @@
+{
+  "feature": "mocreaturesrr:wyvern_island",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:offset",
+      "x": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -16,
+        "max_inclusive": 16
+      },
+      "y": 16,
+      "z": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -16,
+        "max_inclusive": 16
+      }
+    }
+  ]
+}

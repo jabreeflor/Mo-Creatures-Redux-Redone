@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": "mocreaturesrr:hide"
+  },
+  "result": {
+    "id": "mocreaturesrr:hide_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "A": "minecraft:rotten_flesh",
+    "B": "mocreaturesrr:heart_of_undead",
+    "C": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "mocreaturesrr:essence_of_undead",
+    "count": 1
+  }
+}

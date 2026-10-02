@@ -1,0 +1,24 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_overworld",
+      {
+        "type": "neoforge:not",
+        "value": "#mocreaturesrr:no_hostile_spawns"
+      }
+    ]
+  },
+  "spawners": [
+    {
+      "type": "mocreaturesrr:moc_wild_wolf",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 4
+      },
+      "weight": 100
+    }
+  ]
+}

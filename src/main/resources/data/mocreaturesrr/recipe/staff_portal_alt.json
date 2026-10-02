@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  E",
+    " U ",
+    "B  "
+  ],
+  "key": {
+    "E": "minecraft:ender_eye",
+    "U": "mocreaturesrr:essence_of_light",
+    "B": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "mocreaturesrr:staff_portal",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "#mocreaturesrr:omelet_eggs",
+  "result": {
+    "id": "mocreaturesrr:omelet",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}
