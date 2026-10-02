@@ -1,0 +1,17 @@
+# tools/server_smoke.sh output
+# Minecraft 26.3, NeoForge 26.3.0.40-beta, dedicated dev server: Done (2.293s)
+# 'errors in server log' section is empty = no ERROR/FATAL/exception lines from the run
+
+Marked 25 chunks in Overworld from [-2, -2] to [2, 2] to be force loaded
+
+Set minecraft:overworld to time marker minecraft:day
+
+Game rule spawn_mobs is now set to false
+
+summoned 69 / 69 entity types
+still present after 20s: 62 / 69
+  not present (despawned, died, or hatched/converted): moc_ant, moc_cricket, moc_duck, moc_maggot, moc_snail, moc_summoned_rock, moc_throwable_rock
+Saving the game (this may take a moment!)
+Saved the game
+
+---- errors in server log ----
